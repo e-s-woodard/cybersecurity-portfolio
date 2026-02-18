@@ -1,16 +1,16 @@
 ## Project Ideas for Cybersecurity Portfolio
 
 ## 1. Log Analysis
-- Skills: Monitoring, anomaly detection, SIEM familiarity
-- Tools: ELK stack, Splunk (trial), open-source logs
-- Status: Planned
+- **Skills:** Monitoring, anomaly detection, SIEM familiarity
+- **Tools:** ELK stack, Splunk (trial), open-source logs
+- **Status:** Planned
 
 ## 2. Vulnerability Assessment
-- Skills: Scanning, reporting, risk evaluation
-- Tools: Nmap, OpenVAS, test VM
-- Status: Planned
+- **Skills:** Scanning, reporting, risk evaluation
+- **Tools:** Nmap, OpenVAS, test VM
+- **Status:** Planned
 
 ## 3. Incident Response Scenario
-- Skills: Detection, containment, remediation, documentation
-- Tools: Virtual lab, malware simulation
-- Status: Planned
+- **Skills:** Detection, containment, remediation, documentation
+- **Tools:** Virtual lab, malware simulation
+- **Status:** Planned
