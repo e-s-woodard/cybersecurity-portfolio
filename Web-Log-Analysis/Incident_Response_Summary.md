@@ -1,3 +1,12 @@
+## Executive Summary
+Suspicious web activity was identified involving reconnaissance of sensitive application paths and repeated failed authentication attempts followed by a successful login. The pattern suggests automated scanning and a potential credential compromise. Immediate containment actions are recommended to prevent further unauthorized access.
+
+## Severity Level
+Medium
+
+### Rationale
+The incident involves a successful authentication following multiple failed login attempts, which may indicate a compromised account. While impact appears limited to a single account, the potential for unauthorized access increases the overall risk.
+
 # Incident Response Summary
 ## Web Server Suspicious Activity Investigation
 
@@ -27,6 +36,17 @@ The activity suggests potential automated reconnaissance followed by possible cr
 - Web applications should implement stronger authentication protections.
 - Monitoring and alerting for repeated failed logins should be automated.
 - Sensitive endpoints should be properly secured and monitored.
+
+## MITRE ATT&CK Mapping
+
+- **T1595 – Active Scanning**
+  Evidence: Requests to common sensitive paths such as `/wp-login.php` and `/phpmyadmin/`.
+
+- **T1110 – Brute Force**
+  Evidence: Multiple failed authentication attempts (`401` responses) followed by successful login.
+
+- **T1078 – Valid Accounts**
+  Evidence: Successful login and subsequent access to `/account` endpoint.
 
 ### Analyst Notes
 This investigation was conducted as part of a simulated SOC exercise to demonstrate log analysis and incident documentation skills.
