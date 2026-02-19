@@ -1,3 +1,6 @@
+## Project Overview
+This project simulates a real-world SOC scenario where SSH authentication logs are reviewed to detect suspicious login behavior and potential brute-force attacks.
+
 # SSH Log Analysis Project
 
 ## Objective
