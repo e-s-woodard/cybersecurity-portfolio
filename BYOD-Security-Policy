@@ -1,1 +1,32 @@
-A cybersecurity portfolio project focused on creating a secure Bring Your Own Device (BYOD) policy.
+# Bring Your Own Device (BYOD) Security Policy
+
+## Project Overview
+This project demonstrates the creation of a Bring Your Own Device (BYOD) security policy designed to protect organizational data when employees use personal devices to access company resources.
+
+## Purpose
+The purpose of this policy is to define security requirements for personal devices used for work, including authentication, encryption, VPN use, data segregation, and compliance expectations.
+
+## Skills Demonstrated
+- Security policy development
+- Risk mitigation
+- Cybersecurity documentation
+- Governance and compliance awareness
+- Professional written communication
+
+## Policy Topics Covered
+- Introduction and purpose
+- Scope
+- Security controls
+- VPN requirements
+- Data segregation
+- Privacy statement
+- Consequences for violations
+- Communication plan
+
+## Framework Alignment
+This project was developed with reference to cybersecurity best practices such as:
+- NIST guidance for mobile device security
+- SANS security principles
+
+## Files Included
+- BYOD-Policy.docx or BYOD-Policy.pdf
